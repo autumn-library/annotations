@@ -1,0 +1,14 @@
+name: Публикация релиза
+
+on:
+  release:
+    types:
+      - published
+
+jobs:
+  test:
+    uses: autumn-library/workflows/.github/workflows/release.yml@main
+    with:
+      oscript_version: '1.8.3'
+    secrets:
+      PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
