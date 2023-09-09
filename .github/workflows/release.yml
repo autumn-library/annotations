@@ -6,7 +6,7 @@ on:
       - published
 
 jobs:
-  test:
+  release:
     uses: autumn-library/workflows/.github/workflows/release.yml@main
     with:
       oscript_version: '1.8.3'
