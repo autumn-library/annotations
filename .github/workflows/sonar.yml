@@ -5,7 +5,7 @@ on:
   pull_request:
 
 jobs:
-  release:
+  sonar:
     uses: autumn-library/workflows/.github/workflows/sonar.yml@main
     with:
       github_repository: autumn-library/annotations
