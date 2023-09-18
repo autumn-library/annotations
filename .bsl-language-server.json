@@ -2,7 +2,7 @@
     "diagnostics": {
         "parameters": {
             "Typo": {
-                "userWordsToIgnore": "Разворачиватель"
+                "userWordsToIgnore": "Разворачиватель,Верхнеуровневая"
             }
         }
     }
