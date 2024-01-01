@@ -10,5 +10,6 @@ jobs:
     uses: autumn-library/workflows/.github/workflows/sonar.yml@oscript_version
     with:
       github_repository: autumn-library/annotations
+      oscript_version: '1.8.4'
     secrets:
       SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
