@@ -7,7 +7,7 @@ on:
 
 jobs:
   sonar:
-    uses: autumn-library/workflows/.github/workflows/sonar.yml@main
+    uses: autumn-library/workflows/.github/workflows/sonar.yml@oscriot_version
     with:
       github_repository: autumn-library/annotations
     secrets:
