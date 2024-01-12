@@ -12,4 +12,3 @@ jobs:
       github_repository: autumn-library/annotations
     secrets:
       SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-
