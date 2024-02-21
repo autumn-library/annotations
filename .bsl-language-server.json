@@ -3,6 +3,9 @@
         "parameters": {
             "Typo": {
                 "userWordsToIgnore": "Разворачиватель,Верхнеуровневая"
+            },
+            "IncorrectLineBreak": {
+                "listOfIncorrectFirstSymbol": ";"
             }
         }
     }
